@@ -1,34 +1,35 @@
-*{
+
+* {
   margin: 0;
   padding: 0;
-  font-family: arial,sans-serif;
+  font-family: arial, sans-serif;
 }
 a {
   margin-right: 10px;
   text-transform: uppercase;
 }
 
-main{
+main {
   max-width: 1140px;
   margin: 0px auto;
 }
 
+/* education section */
 table {
-  
   border-collapse: collapse;
   width: 80%;
   margin-top: 10px;
   margin: auto;
- 
 }
 
-td, th {
+td,
+th {
   border: 2px solid black;
   text-align: center;
   padding: 10px;
 }
 
-
+/* title section */
 .section-title {
   color: #181818;
   text-align: center;
@@ -36,60 +37,62 @@ td, th {
   font-weight: 700;
 }
 
-#what-i-do-description{
-  /* color: #757575; */
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-margin-top: 20px;
-margin-bottom: 20px;
-
+/* skill section */
+#what-i-do-description {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-.skill-container{
+.skill-container {
   display: flex;
-  /* justify-content: space-between; */
   gap: 24px;
-  
 }
-.skill{
+.skill {
+  line-height: 25px;
   height: 250px;
   padding: 30px;
   border-radius: 5px;
-background: #FFF;
-box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 
-footer{
+/* footer section */
+footer {
   display: flex;
-  
-  /* text-align: center; */
   justify-content: center;
   gap: 100px;
-  background-color:  #FFF8F3;
+  background-color: #fff8f3;
   padding: 130px 200px;
   margin-top: 50px;
- }
- .footer-column{
+}
+
+.footer-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.footer-column {
   width: 50%;
- }
- .contact input[type="text"], .contact input[type="email"],textarea
- {
+}
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
   display: block;
   margin-bottom: 25px;
   padding: 18px 35px;
   border-radius: 5px;
   border: none;
   width: 100%;
- }
+}
 
- .btn-primary {
+.btn-primary {
   border-radius: 5px;
-  background: #fd6e0a;
+  background: #4285f4;
   border: none;
   color: white;
   font-size: 20px;
   font-weight: 700;
   padding: 13px 25px;
-
 }
